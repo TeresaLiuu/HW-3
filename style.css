@@ -1,0 +1,14 @@
+.container{
+    height: 500px;
+    background-color: darksalmon;
+}
+h1{
+    text-align: center;
+}
+form{
+    text-align: center;
+    margin: 40px;
+}
+.settings{
+    text-align: center;
+}
