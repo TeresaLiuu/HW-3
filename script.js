@@ -1,4 +1,4 @@
-function genpassword() {
+function genPassword() {
   var lowerEl = document.getElementById("lowercase").checked;
   var upperEl = document.getElementById("uppercase").checked;
   var numbersEl = document.getElementById("numbers").checked;
@@ -22,7 +22,7 @@ function genpassword() {
     chars+="#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
   }
 
-  
+
   var result = "";
   for (var i = 0; i < number; i++) {
     var random = Math.floor(Math.random() * chars.length);
@@ -31,7 +31,12 @@ function genpassword() {
   inputbox.value = result;
 }
 
-
-
+function copy(){
+  var copyText = document.getElementById("InputPassword");
+  copyText.select();
+  copyText.setSelectionRange(0, 128)
+  document.execCommand("copy");
+  alert("Copied Password "+ copyText.value);
+}
 
 
