@@ -3,7 +3,7 @@ body{
     background-color: #b4b4b4;
 }
 .container{
-    background-color:hsl(0, 100%, 90%) d;
+    background-color:hsl(0, 100%, 90%);
     padding:20px;
     margin:80px;
 }
