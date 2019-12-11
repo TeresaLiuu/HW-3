@@ -9,16 +9,16 @@ function genPassword() {
   var inputbox = document.getElementById("InputPassword");
 
   var chars = "";
-  if (lowerEl == true){
+  if (lowerEl === true){
     chars+="acdefghijklmnopqrstuvwxyz";
   }
-  if (upperEl == true){
+  if (upperEl === true){
     chars+="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   }
-  if (numbersEl == true){
+  if (numbersEl === true){
     chars+="0123456789";
   }
-  if (symbolsEl == true){
+  if (symbolsEl === true){
     chars+="#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
   }
 
