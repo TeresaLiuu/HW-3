@@ -36,7 +36,7 @@ function copy(){
   copyText.select();
   copyText.setSelectionRange(0, 128)
   document.execCommand("copy");
-  alert("Copied Password "+ copyText.value);
+  alert("Copied to clipboard");
 }
 
 
