@@ -1,5 +1,5 @@
 # Welcome to my Password Generator
-This is a link to a password generator I created (https://teresaliuu.github.io/HW-3/)
+This is a link to a password generator I created (https://teresaliuu.github.io/Password-Generator/)
 
 ## About this password generator
 
